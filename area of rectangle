@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+//float lenth, width, area;
+void main()
+{
+    float lenth, width, area;
+    // prompt the user to enter the lenth and width
+    printf("Enter The Lenth Of The Rectangle= ");
+    scanf("%f", &lenth);
+    printf("Enter The Width Of The Rectangle= ");
+    scanf("%f", &width);
+    // calculate the area
+    area = lenth * width;
+    // display the result
+    printf("The area of rectangle is: %f", area);
+        return 0;
+}
