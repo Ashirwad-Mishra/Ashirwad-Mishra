@@ -13,9 +13,9 @@ void main()
         case 1: {
             // For a rectangle
             float length, breadth, area;
-            printf("Enter the length");
+            printf("Enter the length = ");
             scanf("%f",&length);
-            printf("Enter the breadth");
+            printf("Enter the breadth = ");
             scanf("%f",&breadth);
             area=length*breadth;
             printf("Area of rectangle=%f",area);
@@ -32,15 +32,15 @@ void main()
             // for a triangle
          float a, b, c, s, area;
 
-         printf ("Enter the first side of traingle=");
+         printf ("Enter the first side of traingle = ");
 
          scanf ("%f", &a);
 
-         printf ("Enter the secomd side of traingle=");
+         printf ("Enter the secomd side of traingle = ");
 
          scanf ("%f", &b);
 
-         printf ("Enter the third side of traingle=");
+         printf ("Enter the third side of traingle = ");
 
          scanf ("%f",&c);
 
